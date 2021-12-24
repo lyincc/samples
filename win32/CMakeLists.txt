@@ -1,0 +1,5 @@
+set(SAMPLE_NAME sample_win32)
+project(${SAMPLE_NAME})
+
+add_executable(${SAMPLE_NAME} WIN32 main.cc)
+LYIN_SET_EXECUTABLE_TARGET_PROPERTIES(${SAMPLE_NAME})
